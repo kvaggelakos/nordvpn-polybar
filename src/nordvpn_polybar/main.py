@@ -27,7 +27,6 @@ if __name__ == "__main__":
         sys.stdout.write(" ")  # check icon
         sys.stdout.write(format.format(**data))
     else:
-        sys.stdout.write("X ")  # cross icon
-        sys.stdout.write(format.format(**data))
+        sys.stdout.write("X Disconnected")  # cross icon
 
     sys.stdout.flush()
