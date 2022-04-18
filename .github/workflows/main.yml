@@ -1,7 +1,7 @@
 name: Publish to pypi
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Install deps
