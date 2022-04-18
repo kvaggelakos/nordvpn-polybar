@@ -31,4 +31,3 @@ if __name__ == "__main__":
         sys.stdout.write(format.format(**data))
 
     sys.stdout.flush()
-
