@@ -18,4 +18,11 @@ type = custom/script
 exec = python3 -m nordvpn_polybar.main "{status} {city} {transfer}"
 interval = 1
 format-underline = #2196f3
+click-left = nordvpn connect
+click-right = nordvpn disconnect
 ```
+
+# How to use
+
+Left click the polybar item to connect to VPN
+Right click the polybar item to disconnect
