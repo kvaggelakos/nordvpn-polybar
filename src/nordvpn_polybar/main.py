@@ -13,6 +13,8 @@ def parse_output(out):
     out = out.replace('-\r', '').replace('\r', '').strip()
     res = {}
     for line in out.split('\n'):
+        if line.startswith('New feature'):
+            continue
         if ':' in line:
             key, value = line.split(':')
             res[key.strip().lower().replace(' ', '_')] = value.strip()
